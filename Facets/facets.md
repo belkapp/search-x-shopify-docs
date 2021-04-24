@@ -1,4 +1,4 @@
-# Facets
+# Facets / Filters
 
 Facets can:
 - be hidden
@@ -20,6 +20,8 @@ Facet options are only applicable on the `window.sx_results` object.
 | `product_type` | `products` | Product Type on product. |
 | `tags` | `articles`, `products` | Third variant option on product. |
 | `vendor` | `products` | Vendor on product. |
+
+You can sort facet fields like [here](facets_sort.md).
 
 ### Facet Field Options
 

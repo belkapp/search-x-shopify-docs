@@ -172,7 +172,7 @@ Please note that options provided in `window.sx_autocomplete` will NOT apply to 
 | [Currency](/Currency/currency.md) | `sx_autocomplete`, `sx_results` | `currency`, `show_menu` | Show currency change menu on results page. |
 | [Debug](/Debug/debug.md) | `sx_autocomplete`, `sx_results` | `debug` | Turn on more console logs. This can help with passing callbacks to the `window.sx_` objects. |
 | [Display](/Display/display.md) | `sx_autocomplete`, `sx_results` | `color_theme`, `hide_h1`, `hide_sold_out`, `hide_style_name`, `icon_open`, `layout`, `show_all_variants`, `column_collapse_default`, `column_collapse_show` | Change your display and layout settings for each respective widget. |
-| [Facets](/Facets/facets.md) | `sx_results` | `{{facet_field}}`, e.g. `collections`, `option_1`, `product_type` | Specify labels for facets, e.g. `Option 0` => `Size`, or filter include/exclude facet items using regex like `^[0-9]+` |
+| [Facets / Filters](/Facets/facets.md) | `sx_results` | `{{facet_field}}`, e.g. `collections`, `option_1`, `product_type` | Specify labels for facets, e.g. `Option 0` => `Size`, or filter include/exclude facet items using regex like `^[0-9]+` |
 | [Field Boosting](/Field-Boosting/field-boosting.md) | `sx_results` | `f_boost` | Boost up to three values for a single field type, e.g. prioritize results that contain values `['men', 'bags']` for the field `product_type` |
 | [Google Analytics](/Google-Analytics/google-analytics.md) | `sx_results`, `sx_autocomplete` | `ga_events` | Fire `ga()` events for all primary UI interactions. |
 | Google Structured Data | `sx_results` | | We automatically add valid `ld+json` to all search results. |
