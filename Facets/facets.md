@@ -21,7 +21,7 @@ Facet options are only applicable on the `window.sx_results` object.
 | `tags` | `articles`, `products` | Third variant option on product. |
 | `vendor` | `products` | Vendor on product. |
 
-You can sort facet fields like [here](facets_sort.md).
+You can sort facet/filter groups like [here](facets_sort.md).
 
 ### Facet Field Options
 
