@@ -23,7 +23,31 @@ function myCustomHtml (entity, style, imageHtml, priceHtml, quickshopHtml) {
   console.log('imageHtml', imageHtml)
   console.log('priceHtml', priceHtml)
   console.log('quickshopHtml', quickshopHtml)
+  // MUST RETURN typeof 'string'
   return 'foobar'
+}
+
+window.sx_autocomplete = {
+  options: {
+    display: {
+      html: myCustomHtml
+    }
+  }
+};
+```
+
+## Additional Considerations
+
+### Quick Shop
+
+If you would like to use our existing Quick Shop feature, you must return the contents of the arguments `imageHtml` and `quickShopHtml` in your string. The javascript for our Quick Shop references their html contents, and requires specific attributes in order to function correctly.
+
+Try this to start:
+
+```javascript
+function myCustomHtml (entity, style, imageHtml, priceHtml, quickshopHtml) {
+  // MUST RETURN typeof 'string'
+  return entity.title + imageHtml + quickshopHtml
 }
 
 window.sx_autocomplete = {
