@@ -109,7 +109,7 @@ Please note that options provided in `window.sx_autocomplete` will NOT apply to 
         icon_open: true
       },
       sort: "popular"
-    },
+    }
   }
 
   window.sx_results = {
@@ -154,8 +154,8 @@ Please note that options provided in `window.sx_autocomplete` will NOT apply to 
       },
       scope_labels: {
         articles: "Posts"
-      },
-    },
+      }
+    }
   }
 </script>
 ```

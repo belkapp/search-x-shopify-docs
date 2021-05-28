@@ -27,15 +27,15 @@ window.sx_autocomplete = {
     display: {
       color_theme: 'dark',
       icon_open: true
-    },
-  },
+    }
+  }
 };
 
 window.sx_results = {
   options: {
     display: {
       layout: 'right'
-    },
-  },
+    }
+  }
 };
 ```

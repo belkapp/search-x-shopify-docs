@@ -12,6 +12,6 @@ Below are the display options for pagination inside the search results widgets.
 window.sx_results = {
   options: {
     pagination: 'paged'
-  },
+  }
 };
 ```
