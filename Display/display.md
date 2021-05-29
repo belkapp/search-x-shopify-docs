@@ -27,7 +27,7 @@ window.sx_autocomplete = {
   options: {
     display: {
       color_theme: 'dark',
-      icon_open: true
+      form_open: true
     }
   }
 };
