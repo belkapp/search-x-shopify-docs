@@ -16,6 +16,7 @@ Below are the display options for the autocomplete and results widgets.
 | | `hide_sold_out` | `false (default)`, `true` | Hide sold out items in results. |
 | | `hide_style_name` | `false (default)`, `true` | Hide variant style name in results when filtering by color, or when showing all variant colors in results: `show_all_variants`. |
 | | `html` | callback | Define a custom function that returns html. This function will receive arguments `(entity, style, imageHtml, priceHtml, quickshopHtml)`. `entity` will be the Product, Article, Collection, or Page object. `style` will show conditionally if `entity` is type Product, and using `show_all_variants` configuration. [Example here >](custom-html.md) |
+| | `images_hide` | object | [more info here](images-hide.md) |
 | | `layout` | `'left' (default)`, `'right'` | Display facets column on left or right of the page. |
 | | `show_all_variants` | `false (default)`, `true` | Show all product variants in results. This shows a single variant by style. |
 | | `show_variant_thumbs` | `false (default)`, `true` | Show thubmnail images of remaining variants below main product variant. This is not applicable if `show_all_variants: true`. |
