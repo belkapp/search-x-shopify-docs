@@ -27,7 +27,7 @@ Check out the [Search X demo store]() to see for yourself.
 
 ### Basic Stats
 
-The total javascript and css payload for our core library is 23K. There are no external library dependencies like jQuery, Vue or Instant Search. We use only raw javascript.
+The total javascript and css payload for our core library is 18k. There are no external library dependencies like jQuery, Vue or Instant Search. We use only raw javascript.
 
 Our search results payloads differ by shop, but the average is ~130K for 3,000 autocomplete results entities, and ~100-300K for 1000 search results entities. After results are loaded, additional page requests are not required unless the sort order is changed.
 
@@ -48,7 +48,7 @@ Search X is optimized for shops with up to 10,000+ products.
 | **[Google Analytics](/Google-Analytics/google-analytics.md)** | <img src="https://apps.belkapp.com/images/searchx-docs-yes.png" width="40" alt="Yes"> | <img src="https://apps.belkapp.com/images/searchx-docs-yes.png" width="40" alt="Yes"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-yes.png" width="40" alt="Yes"> |
 | **[Field Boosting](/Field-Boosting/field-boosting.md)** | <img src="https://apps.belkapp.com/images/searchx-docs-yes.png" width="40" alt="Yes"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-yes.png" width="40" alt="Yes"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> | <img src="https://apps.belkapp.com/images/searchx-docs-no.png" width="40" alt="No"> |
 | **Requests On Page Load** | `3` | `8` | `19` | `15` | `12` | `6` | `19` |
-| **Core Javascript Size** | `23K` | `190K` | `260K` | `270K` | `310K` | `240K` | `330K` |
+| **Core Javascript Size** | `18k` | `190K` | `260K` | `270K` | `310K` | `240K` | `330K` |
 | **External Library Dependencies** | `None` | `jQuery` | `jQuery, lodash, hogan, instant search` | `jQuery` | `jQuery` | `jQuery`, `Vue` | `Polyfill` |
 
 ### Basic Installation
