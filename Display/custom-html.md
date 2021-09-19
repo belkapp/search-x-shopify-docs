@@ -1,5 +1,7 @@
 # Custom Html For Results Items
 
+You can define a custom function to render your own HTML product result tiles. Your function must return a string of HTML.
+
 | Fields | Allowed Values | Description |
 |-|-|-|
 | `options.display.html` | function | Define a custom function that returns html. This function will receive arguments `(entity, style, imageHtml, priceHtml, quickshopHtml)`. |

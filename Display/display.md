@@ -1,6 +1,11 @@
 # Display
 
-Below are the display options for the autocomplete and results widgets.
+The table below contains the display options for the autocomplete and results widgets.
+
+Related to display, we also have more detailed configuration options for the following:
+
+- [Autocomplete - Responsive Display](autocomplete-responsive.md)
+- [Results - Custom HTML Tiles](custom-html.md)
 
 | SX Type | Fields | Allowed Values | Description |
 | -- | -- | -- | -- |
